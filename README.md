@@ -1,8 +1,19 @@
-# hackernews-async-ts
+# Canary Server
 
 [Hacker News](https://news.ycombinator.com/) showcase using typescript && egg
 
 ## QuickStart
+
+### Build DB File
+The system is using a file storage for data. you need create those json file with a empty array in them for init.
+```bash
+/data/
+
+dataSource.json
+dashBoard.json
+chartWarehouse.json
+```
+If you want transform it into a real db system. you can edit the service.queryDB for your own database.
 
 ### Development
 
