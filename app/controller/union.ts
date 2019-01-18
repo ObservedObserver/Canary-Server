@@ -1,7 +1,7 @@
 import {Controller} from 'egg';
 const DS_FILE: string = './data/dataSource.json'
 const DB_FILE: string = './data/dashBoard.json'
-const C_FILE: string = './data/chart.json'
+const C_FILE: string = './data/chartWareHouse.json'
 interface UnionData {
   dataSource: Array<any>,
   dashBoardList: Array<any>,
