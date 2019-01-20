@@ -3,13 +3,13 @@ import { EggAppConfig, EggAppInfo, PowerPartial } from 'egg';
 export default (appInfo: EggAppInfo) => {
   const config = {} as PowerPartial<EggAppConfig>;
   config.security = {
-    domainWhiteList: [ 'http://localhost:1997' ],
+    domainWhiteList: [ 'http://bi.canary.plus:1997' ],
     csrf: {
       enable: false
     }
   },
   config.cors = {
-    origin: 'http://localhost:1997',
+    origin: 'http://bi.canary.plus:1997',
     credentials: true,
     allowMethods: 'GET,HEAD,PUT,POST,DELETE,PATCH'
   }
