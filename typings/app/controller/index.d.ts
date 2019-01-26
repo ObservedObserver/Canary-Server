@@ -6,6 +6,7 @@ import ExportChart from '../../../app/controller/chart';
 import ExportDashBoard from '../../../app/controller/dashBoard';
 import ExportDataSource from '../../../app/controller/dataSource';
 import ExportHome from '../../../app/controller/home';
+import ExportSql from '../../../app/controller/sql';
 import ExportUnion from '../../../app/controller/union';
 
 declare module 'egg' {
@@ -14,6 +15,7 @@ declare module 'egg' {
     dashBoard: ExportDashBoard;
     dataSource: ExportDataSource;
     home: ExportHome;
+    sql: ExportSql;
     union: ExportUnion;
   }
 }

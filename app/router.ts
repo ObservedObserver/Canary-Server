@@ -17,4 +17,5 @@ export default (app: Application) => {
   router.post('/api/addChart', controller.chart.addChart);
   router.put('/api/updateChart', controller.chart.putChart);
   router.delete('/api/deleteChart', controller.chart.deleteChart);
+  router.post('/api/sql', controller.sql.sqlQuery);
 };
